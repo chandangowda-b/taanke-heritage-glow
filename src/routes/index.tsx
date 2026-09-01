@@ -56,7 +56,7 @@ function Index() {
       <header className="absolute left-0 right-0 top-0 z-30 border-b border-primary-foreground/20 text-primary-foreground">
         <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-5 lg:px-12">
           <button onClick={() => scrollTo("top")} aria-label="House of Taanke home" className="group flex items-center gap-3">
-            <img src={logo.url} alt="House of Taanke" width={78} height={102} className="h-14 w-auto object-contain brightness-0 invert transition-transform duration-500 group-hover:scale-105" />
+            <img src={logo.url} alt="House of Taanke" width={78} height={102} className="h-14 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
             <span className="hidden border-l border-primary-foreground/30 pl-3 font-sans text-[9px] uppercase tracking-[0.3em] sm:block">House of<br />Taanke</span>
           </button>
           <nav className="hidden items-center gap-9 font-sans text-[10px] uppercase tracking-[0.2em] md:flex" aria-label="Primary navigation">
